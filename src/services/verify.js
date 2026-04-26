@@ -39,7 +39,7 @@ export function buildConversationRequest(message) {
             tools: []
           },
           content: message,
-          modelId: 'claude-3-5-sonnet',
+          modelId: 'claude-sonnet-4',
           images: [],
           origin: 'AI_EDITOR'
         }
